@@ -1,0 +1,19 @@
+---
+abstract: 'Guess gender of an Indonesian first name'
+author:
+  - 'Steven Haryanto <stevenharyanto@gmail.com>'
+build_requires:
+  Module::Build: 0.3601
+configure_requires:
+  Module::Build: 0.3601
+generated_by: 'Dist::Zilla version 2.101241'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Locale-ID-GuessGender-FromFirstName
+recommends: {}
+requires:
+  REST::Google: 0
+  perl: 5.010000
+version: 0.01
