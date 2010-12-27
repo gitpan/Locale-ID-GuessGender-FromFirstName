@@ -3,7 +3,7 @@ NAME
     first name
 
 VERSION
-    version 0.01
+    version 0.02
 
 SYNOPSIS
      use Locale::ID::GuessGender::FromFirstName qw/guess_gender/;
@@ -87,7 +87,7 @@ SEE ALSO
     Locale::ID::ParseName::Person
 
 AUTHOR
-      Steven Haryanto <stevenharyanto@gmail.com>
+    Steven Haryanto <stevenharyanto@gmail.com>
 
 COPYRIGHT AND LICENSE
     This software is copyright (c) 2010 by Steven Haryanto.

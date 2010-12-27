@@ -1,6 +1,6 @@
 package Locale::ID::GuessGender::FromFirstName::google;
 BEGIN {
-  $Locale::ID::GuessGender::FromFirstName::google::VERSION = '0.01';
+  $Locale::ID::GuessGender::FromFirstName::google::VERSION = '0.02';
 }
 
 use strict;
@@ -86,7 +86,7 @@ Locale::ID::GuessGender::FromFirstName::google
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 FUNCTIONS
 
@@ -125,7 +125,7 @@ Google, for example.
 
 =head1 AUTHOR
 
-  Steven Haryanto <stevenharyanto@gmail.com>
+Steven Haryanto <stevenharyanto@gmail.com>
 
 =head1 COPYRIGHT AND LICENSE
 

@@ -1,6 +1,6 @@
 package Locale::ID::GuessGender::FromFirstName::common;
 BEGIN {
-  $Locale::ID::GuessGender::FromFirstName::common::VERSION = '0.01';
+  $Locale::ID::GuessGender::FromFirstName::common::VERSION = '0.02';
 }
 
 use strict;
@@ -1055,7 +1055,7 @@ Locale::ID::GuessGender::FromFirstName::common
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 FUNCTIONS
 
@@ -1092,7 +1092,7 @@ will return 0.
 
 =head1 AUTHOR
 
-  Steven Haryanto <stevenharyanto@gmail.com>
+Steven Haryanto <stevenharyanto@gmail.com>
 
 =head1 COPYRIGHT AND LICENSE
 

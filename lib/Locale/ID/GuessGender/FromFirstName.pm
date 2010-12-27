@@ -1,6 +1,6 @@
 package Locale::ID::GuessGender::FromFirstName;
 BEGIN {
-  $Locale::ID::GuessGender::FromFirstName::VERSION = '0.01';
+  $Locale::ID::GuessGender::FromFirstName::VERSION = '0.02';
 }
 # ABSTRACT: Guess gender of an Indonesian first name
 
@@ -92,7 +92,7 @@ Locale::ID::GuessGender::FromFirstName - Guess gender of an Indonesian first nam
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 SYNOPSIS
 
@@ -200,7 +200,7 @@ L<Locale::ID::ParseName::Person>
 
 =head1 AUTHOR
 
-  Steven Haryanto <stevenharyanto@gmail.com>
+Steven Haryanto <stevenharyanto@gmail.com>
 
 =head1 COPYRIGHT AND LICENSE
 

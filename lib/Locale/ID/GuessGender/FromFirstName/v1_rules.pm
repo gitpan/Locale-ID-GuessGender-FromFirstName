@@ -1,6 +1,6 @@
 package Locale::ID::GuessGender::FromFirstName::v1_rules;
 BEGIN {
-  $Locale::ID::GuessGender::FromFirstName::v1_rules::VERSION = '0.01';
+  $Locale::ID::GuessGender::FromFirstName::v1_rules::VERSION = '0.02';
 }
 
 use strict;
@@ -74,7 +74,7 @@ Locale::ID::GuessGender::FromFirstName::v1_rules
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 FUNCTIONS
 
@@ -110,7 +110,7 @@ Whether the algorithm succeeds.
 
 =head1 AUTHOR
 
-  Steven Haryanto <stevenharyanto@gmail.com>
+Steven Haryanto <stevenharyanto@gmail.com>
 
 =head1 COPYRIGHT AND LICENSE
 

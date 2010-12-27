@@ -4,6 +4,7 @@ use warnings;
 
 use Module::Build 0.3601;
 
+
 my %module_build_args = (
   'build_requires' => {
     'Module::Build' => '0.3601'
@@ -16,11 +17,13 @@ my %module_build_args = (
     'Steven Haryanto <stevenharyanto@gmail.com>'
   ],
   'dist_name' => 'Locale-ID-GuessGender-FromFirstName',
-  'dist_version' => '0.01',
+  'dist_version' => '0.02',
   'license' => 'perl',
   'module_name' => 'Locale::ID::GuessGender::FromFirstName',
   'recommends' => {},
+  'recursive_test_files' => 1,
   'requires' => {
+    'JSON' => '0',
     'REST::Google' => '0',
     'perl' => '5.010000'
   },
