@@ -1,10 +1,11 @@
 package Locale::ID::GuessGender::FromFirstName;
 BEGIN {
-  $Locale::ID::GuessGender::FromFirstName::VERSION = '0.02';
+  $Locale::ID::GuessGender::FromFirstName::VERSION = '0.03';
 }
 # ABSTRACT: Guess gender of an Indonesian first name
 
 
+use 5.010;
 use strict;
 use warnings;
 
@@ -92,7 +93,7 @@ Locale::ID::GuessGender::FromFirstName - Guess gender of an Indonesian first nam
 
 =head1 VERSION
 
-version 0.02
+version 0.03
 
 =head1 SYNOPSIS
 
@@ -204,7 +205,7 @@ Steven Haryanto <stevenharyanto@gmail.com>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2010 by Steven Haryanto.
+This software is copyright (c) 2011 by Steven Haryanto.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
