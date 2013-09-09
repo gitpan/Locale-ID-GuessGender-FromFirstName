@@ -1,13 +1,10 @@
 package Locale::ID::GuessGender::FromFirstName;
-BEGIN {
-  $Locale::ID::GuessGender::FromFirstName::VERSION = '0.03';
-}
-# ABSTRACT: Guess gender of an Indonesian first name
 
-
-use 5.010;
+use 5.010001;
 use strict;
 use warnings;
+
+our $VERSION = '0.04'; # VERSION
 
 my @known_algos = qw/common v1_rules google/;
 
@@ -17,7 +14,6 @@ use Locale::ID::GuessGender::FromFirstName::google;
 
 our @ISA = qw(Exporter);
 our @EXPORT_OK = qw(guess_gender);
-
 
 sub guess_gender {
     my $opts;
@@ -81,10 +77,11 @@ sub guess_gender {
     @res;
 }
 
-
 1;
+# ABSTRACT: Guess gender of an Indonesian first name
 
 __END__
+
 =pod
 
 =head1 NAME
@@ -93,7 +90,7 @@ Locale::ID::GuessGender::FromFirstName - Guess gender of an Indonesian first nam
 
 =head1 VERSION
 
-version 0.03
+version 0.04
 
 =head1 SYNOPSIS
 
@@ -205,10 +202,9 @@ Steven Haryanto <stevenharyanto@gmail.com>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2011 by Steven Haryanto.
+This software is copyright (c) 2013 by Steven Haryanto.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
 
 =cut
-

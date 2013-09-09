@@ -1,9 +1,10 @@
-Build.PL
 Changes
 LICENSE
 MANIFEST
 MANIFEST.SKIP
+META.json
 META.yml
+Makefile.PL
 README
 dist.ini
 lib/Locale/ID/GuessGender/FromFirstName.pm
@@ -16,3 +17,4 @@ t/algo-google.t
 t/algo-v1_rules.t
 t/release-pod-coverage.t
 t/release-pod-syntax.t
+t/release-rinci.t

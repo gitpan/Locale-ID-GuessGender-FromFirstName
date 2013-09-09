@@ -1,12 +1,10 @@
 package Locale::ID::GuessGender::FromFirstName::google;
-BEGIN {
-  $Locale::ID::GuessGender::FromFirstName::google::VERSION = '0.03';
-}
 
 use strict;
 use warnings;
 use REST::Google::Search;
 
+our $VERSION = '0.04'; # VERSION
 
 sub guess_gender {
     my $opts;
@@ -76,17 +74,19 @@ sub guess_gender {
 }
 
 1;
+# ABSTRACT: google
 
 __END__
+
 =pod
 
 =head1 NAME
 
-Locale::ID::GuessGender::FromFirstName::google
+Locale::ID::GuessGender::FromFirstName::google - google
 
 =head1 VERSION
 
-version 0.03
+version 0.04
 
 =head1 FUNCTIONS
 
@@ -129,10 +129,9 @@ Steven Haryanto <stevenharyanto@gmail.com>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2011 by Steven Haryanto.
+This software is copyright (c) 2013 by Steven Haryanto.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
 
 =cut
-
